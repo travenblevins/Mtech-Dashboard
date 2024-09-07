@@ -1,0 +1,101 @@
+@use 'var';
+
+
+.right-sidebar {
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.top-right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    i {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: bold;
+        width: 110px;
+
+    }
+
+    img {
+        height: 45px;
+        width: 45px;
+    }
+
+}
+
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #fff;
+    height: 1000px;
+    border-radius: 20px;
+
+
+    .stats-bar {
+        display: flex;
+        justify-content: space-between;
+        width: 325px;
+    }
+
+    .stats-bar h3 {
+        margin-left: 5px;
+        margin-top: 10px;
+        width: 80px;
+    }
+
+    .stats-bar i {
+        margin-right: 10px;
+        margin-top: 10px;
+    }
+
+        .avatar {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        span {
+            font-size: 14px;
+            color: #7a7a7a;
+        }
+    }
+
+    .progress {
+        margin-top: 30px;
+    }
+
+    .your-mentors {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 90%;
+
+        h3 {
+            margin-left: 10px;
+        }
+
+        i {
+            margin-right: 40px;
+            font-size: 25px;
+        }
+    }
+
