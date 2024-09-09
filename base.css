@@ -267,4 +267,16 @@ body {
 }
 .content .center-column {
   flex-grow: 2;
-}/*# sourceMappingURL=base.css.map */
+}
+
+.lower-sidebar {
+  flex-direction:column;
+}
+
+.settings, .logout {
+  display:flex;
+  align-items: center;
+}
+
+/*# sourceMappingURL=base.css.map */
+
